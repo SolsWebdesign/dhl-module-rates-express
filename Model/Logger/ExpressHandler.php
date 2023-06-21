@@ -40,7 +40,7 @@ class ExpressHandler extends Base
         parent::__construct($filesystem, $filePath);
     }
 
-    public function isHandling(array $record)
+    public function isHandling(array $record): bool
     {
         $logEnabled = $this->moduleConfig->isLoggingEnabled();
         $logLevel = $this->moduleConfig->getLogLevel();
