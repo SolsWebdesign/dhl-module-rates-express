@@ -21,7 +21,6 @@
         ]
     },
     "require": {
-        "php": ">7.*",
         "dhl/sdk-api-express": "^2.0.0",
         "magento/framework": "^102.0.0 || ^103.0.0",
         "magento/module-backend": "^101.0.0 || ^102.0.0",
